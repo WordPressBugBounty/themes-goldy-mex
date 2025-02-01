@@ -1,0 +1,189 @@
+li#accordion-section-pro_section_custom_control {
+    display: block !important;
+    padding: 5px;
+}
+li#accordion-section-goldy_mex_documentation_Upsell_Section {
+    display: block !important;
+    padding: 5px;
+}
+/*body #accordion-section-goldy_mex_documentation_Upsell_Section h3 {
+    background-color: #c7c5c5  !important;
+    color: #000000 !important;
+    border-left: 0 !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}*/
+body .control-section .accordion-section-title .button {
+    margin-top: -4px;
+    font-weight: 700;
+    margin-left: 8px;
+    background: #273641;
+    border: none;
+    color: #fff;
+}
+a.button.button-secondary.alignright.button_pro {
+    background: #465276;
+    padding: 15px 60px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 9px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    display: inline-block;
+    float: none;
+    border-bottom: 2px solid #273641;
+    height: fit-content;
+    font-weight: 500;
+}
+li#accordion-section-goldy_mex_pro_section {
+    display: inline-block!important;
+    padding: 15px 0px 15px 0;
+    text-align: center;
+    width: 100%;
+}
+h3.section-heading {
+    background-color: #ffffff;
+    margin-top: 15px;
+    padding: 10px 10px;
+    border-bottom: 1px solid #ddd;
+    border-left: 4px solid #00a0d2;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+}
+input.image-select {
+    display: none;
+}
+#customize-controls img{
+    margin: 8px 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    padding: 1px;
+    border: 4px solid transparent;
+}
+.customize-control-select input:checked+img {
+    border-color: #00a0d2 !important;
+}
+/*.ui-sortable-handle {
+    cursor: all-scroll;
+}*/
+i.dashicons.dashicons-menu {
+    float: right;
+}
+i.visibility{
+    cursor: pointer;
+    margin-right: 10px;
+}
+li.repeater.invisibility {
+    color: #aaa;
+    border: 1px dashed #aaa;
+}
+/* ==========================================================================
+   check box
+   ========================================================================== */
+
+.customize-control-checkbox label{
+    font-weight: 600;
+}
+.customize-control-nav_menu_auto_add input[type=checkbox] ,
+.customize-control-checkbox input[type=checkbox] {
+    width: 35px;
+    height: 15px;
+    background: grey;
+    border-radius: 100px;
+    position: relative;
+    border: none;
+    min-width: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.customize-control-nav_menu_auto_add input[type=checkbox]:checked:before,
+.customize-control-checkbox input[type=checkbox]:checked:before{display: none;}
+
+.customize-control-nav_menu_auto_add input[type=checkbox]:after ,
+.customize-control-checkbox input[type=checkbox]:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+.customize-control-nav_menu_auto_add input:checked,
+.customize-control-checkbox input:checked{
+    background: #00a0d2;
+}
+.customize-control-nav_menu_auto_add input:checked:after ,
+.customize-control-checkbox input:checked:after {
+    left: calc(100% - 0px);
+    transform: translateX(-100%);
+}
+.customize-control-checkbox input:active:after {
+    width: 15px;
+}
+/* ==========================================================================
+   check box
+   ========================================================================== */
+
+
+.general_design_tab{
+    display: flex;
+}
+.general_design_tab input:checked+h2{
+    padding: 10px;
+    color: #007cba;
+    border-bottom: 2px solid #007cba;
+}
+.general_design_tab {
+    display: flex;
+    margin-top: -15px;
+    margin-left: -24px;
+    margin-right: -24px;
+    padding: 0;
+    margin-bottom: 0;
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    margin-bottom: 0;
+    justify-content: space-around;
+}
+.general_design_tab label {
+    -webkit-box-flex: 1;
+    flex: 1 1 0;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 11.5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: normal;
+    text-transform: uppercase;
+    height: 40px;
+    margin: 0;
+    box-sizing: content-box;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    border-top: 2px solid transparent;
+    border-radius: 0;
+}
+.general_design_tab label h2 {
+    font-size: 12px;
+    color: #50575e;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+input.general-design-select{
+    display: none;
+}
+.goldy-custom-action {
+    background: #dedede;
+    padding: 14px;
+}
