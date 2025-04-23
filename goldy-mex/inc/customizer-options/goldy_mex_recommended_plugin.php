@@ -13,10 +13,10 @@ $goldy_mex_config_customizer = array(
 		),
 	),
 	'recommended_actions'       => array(),
-	'recommended_actions_title' => esc_html__( 'Recommended Actions', 'goldy-mex' ),
-	'recommended_plugins_title' => esc_html__( 'Recommended Plugin', 'goldy-mex' ),
-	'install_button_label'      => esc_html__( 'Install and Activate', 'goldy-mex' ),
-	'activate_button_label'     => esc_html__( 'Activate', 'goldy-mex' ),
-	'goldy_mex_deactivate_button_label'   => esc_html__( 'Deactivate', 'goldy-mex' ),
+	'recommended_actions_title' => 'Recommended Actions',
+	'recommended_plugins_title' => 'Recommended Plugin',
+	'install_button_label'      => 'Install and Activate',
+	'activate_button_label'     => 'Activate',
+	'goldy_mex_deactivate_button_label'   =>'Deactivate',
 );
 goldy_mex_Customizer_Notify::init( apply_filters( 'goldy_mex_recommended_plugins', $goldy_mex_config_customizer ) );
